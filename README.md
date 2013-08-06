@@ -18,6 +18,7 @@ Dependencies to the following 3 jar-files ( in that order )
 (buttom) Java EE 6 API Library
 
 the netbeans file projecet.properties keeps track of those dependencies for you:
+
 javac.classpath=\
     ${file.reference.appserv-rt.jar}:\
     ${file.reference.gf-client.jar}:\
