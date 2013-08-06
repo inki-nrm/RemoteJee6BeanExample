@@ -8,10 +8,12 @@ J2SE-client (JNDI), dependency to the project 'servicedomain'.
 A single method is defined in the remote interface.
 
 obs: J2SE-client.
-Dependencies ( in that order )
+Dependencies to the following 3 jar-files ( in that order )
 
-top) appserv-rt
-middle) gf-client
-button) Java EE 6 API Library
+(top) appserv-rt
+
+(middle) gf-client
+
+(buttom) Java EE 6 API Library
 
 
