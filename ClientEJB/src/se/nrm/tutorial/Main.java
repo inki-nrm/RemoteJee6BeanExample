@@ -30,7 +30,7 @@ public class Main {
             jndiProps.put("java.naming.factory.initial", "com.sun.enterprise.naming.impl.SerialInitContextFactory");
             jndiProps.put("java.naming.factory.url.pkgs", "com.sun.enterprise.naming");
             jndiProps.put("java.naming.factory.state", "com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl");
-            jndiProps.setProperty("org.omg.CORBA.ORBInitialHost", "172.16.23.29");
+            jndiProps.setProperty("org.omg.CORBA.ORBInitialHost", "172.16.23.18" ); // "172.16.23.29" // 172.16.23.18
             Context ctx = new InitialContext(jndiProps);
             bean = (AsyncRemote) ctx.lookup("java:global/NRMBean/TestEnterpriseBean");
             
