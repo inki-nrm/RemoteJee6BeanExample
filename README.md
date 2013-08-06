@@ -17,6 +17,13 @@ Dependencies to the following 3 jar-files ( in that order )
 
 (buttom) Java EE 6 API Library
 
+the netbeans file projecet.properties keeps track of those dependencies for you:
+javac.classpath=\
+    ${file.reference.appserv-rt.jar}:\
+    ${file.reference.gf-client.jar}:\
+    ${file.reference.javaee.jar}:\
+    ${reference.ServiceDomain.jar}
+
 OBS 2: J2SE-Client and ip-nr of the machine where the EJB is deployed
 
 Don't forget to change the ip-number ( set the ip-number to the nr where your bean resides )
