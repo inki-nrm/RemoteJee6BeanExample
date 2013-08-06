@@ -19,6 +19,8 @@ Dependencies to the following 3 jar-files ( in that order )
 
 Don't forget to change the ip-number ( set the ip-number to the nr where your bean resides )
 
+Below -> my ip-address is '172.16.23.29', change to yours ....
+
  jndiProps.setProperty("org.omg.CORBA.ORBInitialHost", "172.16.23.29"); 
  
  
